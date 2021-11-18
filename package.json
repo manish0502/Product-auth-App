@@ -1,0 +1,30 @@
+{
+  "name": "task-1",
+  "version": "1.0.0",
+  "description": "This is the task for the appscrip",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "keywords": [
+    "Nodejs",
+    "Expressjs",
+    "MongoDB"
+  ],
+  "author": "Manish Giri",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "config": "^3.3.6",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "http-status-codes": "^2.1.4",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.12",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
